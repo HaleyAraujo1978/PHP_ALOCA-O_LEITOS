@@ -1,0 +1,187 @@
+*{margin:0px; padding:0px; }
+	
+table#consulta{
+	border-style: groove;
+    border-collapse:collapse;
+    border-spacing:10;
+    width: 100%;
+    vertical-align: middle;
+	color: black;
+}
+
+select{	
+	height: 50px;
+	width:400px;
+	margin: 10px;
+	border-radius: 30px;
+	border:1px solid black;
+	font-size: 16pt;
+	padding: 10px 20px;}
+}
+
+div#menu{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 100px;
+	height: 100px;
+	background-color: rgba(1, 1, 1, 0.2);
+}
+
+div#tempo{	
+	position: absolute;
+	top: 5px;
+	left:5px;
+	width: 300px;
+	height: 120px;	
+	background-color: rgba(0, 200, 50, 0.2);
+	color: white;
+}
+
+div#cadastro{
+	position: absolute;
+	top: 125px;
+	left:5px;
+	width: 300px;
+	height: 35px;
+	background-color: rgba(0, 200, 50, 0.2);
+	font-size: 18pt;
+	text-align: center;
+	color: black;
+}
+
+div#texto{	
+	position: absolute;
+	top: 160px;
+	left: 5px;
+	width: 300px;
+	height: 455px;
+	background-color: rgba(0, 200, 50, 0.2);
+	font-size: 18pt;
+	text-align: center;
+	color: black;	
+}
+
+div#rodape{
+	position: absolute;
+	top: 620px;
+	left: 5px;
+	width: 1351px;
+	height: 20px;
+	background-color: rgba(1,1,1,0.1);
+	font-size: 12pt;
+	text-align: right;
+	color: black;
+}	
+	
+div#txtUsu { padding: 0px 10px;}
+
+div#corpo{
+	overflow:auto;
+	position: absolute;
+	top: 5px;
+	left:310px;
+	width: 1047px;
+	height: 610px;
+	background-color: rgba(0, 0, 50, 0.1);
+	font-size: 16pt;
+	color: rgba(15, 15, 15, 0.5);
+	text-align: center;
+}
+
+div#titulo2{
+	display: flex;
+	text-align: left;
+	font-size: 18pt;
+	color:black;
+	margin: 10px 10px 10px 10px;
+}
+
+div#corpo-form{
+	position: absolute;
+	top: 50px;
+	left:480px;
+	width: 420px;
+	height: 450px;
+	background-color: rgba(0, 200, 50, 0.2);
+	font-size: 16pt;
+	text-align: center;
+	color: rgba(15, 15, 15, 0.5);
+}
+
+div#titulo_imagem{
+	display: flex;
+	text-align: left;
+	margin: 10px 10px 10px 10px;
+}
+
+div#titulo{
+	display: flex;
+	text-align: left;
+	font-size: 22pt;
+	color:black;
+	margin: 10px 10px 10px 10px;}
+
+
+div#login{
+	text-align: left;
+	background-color: rgba(0, 200, 50, 0.2);
+}	
+	
+div#msg-erro{
+	position: absolute;
+	top: 4px;
+	left:530px;
+	width: 290px;
+	height: 25px;
+	padding: 10px 20px;
+	text-align: center;
+	background-color: rgba(200, 100, 100, 0.6);}
+	
+div#msg-erro-login{
+	position: absolute;
+	top: 380px;
+	left:40px;
+	width: 300px;
+	height: 25px;
+	padding: 10px 20px;
+	text-align: center;
+	background-color: rgba(200, 100, 100, 0.6);}
+}
+
+input[type=date]{
+	height: 30px;
+	width: 180px;
+	font-family: Arial;
+	font-size: 11pt;}
+	
+input#acionamento[type=date]{
+	display:center;
+	height: 40px;
+	width:400px;
+	margin: 10px;
+	border-radius: 30px;
+	border:1px solid black;
+	font-size: 16pt;
+	padding: 10px 20px;}	
+
+input[type=submit]{
+	height: 40px; 
+	width: 200px;
+	float: center;
+	padding: 0 3px 0 0;
+	margin-top: 15px;
+	margin-left: 110px;
+	font-size: 11pt;}
+	
+input{	
+	display:center;
+	height: 50px;
+	width:400px;
+	margin: 10px;
+	border-radius: 30px;
+	border:1px solid black;
+	font-size: 16pt;
+	padding: 10px 20px;
+}
+	
